@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/games/{id}/{name}', function ($id, $name) {
+    return 'this is game  ' . $name . ' with an id of ' . $id;
+});
