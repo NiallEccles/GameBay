@@ -63,6 +63,68 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
+            .nav {
+                background: #333;
+                min-height: 75px;
+                position: relative;
+                display: flex;
+                align-items: center;
+                position: fixed;
+                top: 0;
+                width: 100%;
+                z-index: 999; }
+                .nav a {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    min-height: 75px;
+                    padding: 0px 10px 0px 10px; }
+                    @media screen and (max-width: 800px) {
+                    .nav a {
+                        justify-content: flex-start; } }
+                    .nav a .logo {
+                    color: #fff;
+                    text-decoration: none; }
+                .nav a {
+                    color: #fff;
+                    text-decoration: none; }
+                .nav a:hover {
+                    background: #fff;
+                    color: #333;
+                    cursor: pointer; }
+                    .nav a:hover .logo {
+                    color: #333; }
+                .nav .spacer {
+                    flex-grow: 1; }
+                .nav .responsive-nav span {
+                    color:white;}
+                    @media screen and (max-width: 800px) {
+                    .nav .responsive-nav {
+                        color: white;
+                        display: block;
+                        width: 30px;
+                        margin-right: 10px; } }
+                .nav ul {
+                    display: flex;
+                    margin: 0; }
+                    @media screen and (max-width: 800px) {
+                    .nav ul {
+                        display: none; } }
+                    .nav ul li {
+                    display: flex;
+                    margin-bottom: 0 !important; }
+                    @media screen and (max-width: 800px) {
+                        .nav ul li a {
+                        width: 100%; } }
+                @media screen and (max-width: 800px) {
+                    .nav .respond {
+                    display: initial;
+                    position: absolute;
+                    background: #333;
+                    top: 75px;
+                    width: 100%;
+                    transition: all 300ms ease-in-out;
+                    padding: 0; } }
         </style>
     </head>
     <body>
