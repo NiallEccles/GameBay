@@ -8,7 +8,7 @@
         <title>Laravel</title>
 
         <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700i|Roboto:400" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700i|Roboto:400" rel="stylesheet">        
     </head>
     <body>
         @yield('navigation')
