@@ -11,14 +11,14 @@ gulp.task('message', function(){
 gulp.task('minify', function(){
 	gulp.src('resources/assets/js/*.js')
 		.pipe(uglify())
-		.pipe(gulp.dest('resources/assets/dist/js'))
+		.pipe(gulp.dest('public/js/'))
 });
 
 //Compile Sass
 gulp.task('sass', function(){
 	gulp.src('resources/assets/sass/*.scss')
 		.pipe(sass().on('error', sass.logError))
-		.pipe(gulp.dest('resources/assets/dist/css'))
+		.pipe(gulp.dest('public/css/'))
 });
 
 //Concat scripts
@@ -26,7 +26,7 @@ gulp.task('scripts', function(){
 	gulp.src('resources/assets/js/*.js')
 		.pipe(concat('script.js'))
 		.pipe(uglify())
-		.pipe(gulp.dest('resources/assets/dist/js'))
+		.pipe(gulp.dest('public/js/'))
 });
 
 //Run build tasks
