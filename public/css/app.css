@@ -4,4 +4,10 @@
 
 body {
   background: #241570;
-  color: #0ecede; }
+  color: #0ecede;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 18px; }
+
+h1 {
+  font-weight: 700; }

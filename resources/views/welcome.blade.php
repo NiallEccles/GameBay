@@ -3,7 +3,7 @@
 @section('navigation')
     <div class="nav">
         <div class="responsive-nav">
-            <span>GameBay</span>
+            <h1>GameBay</h1>
         </div>
     </div>
 @endsection
