@@ -1,19 +1,21 @@
 // Variables
 @import "_variables";
 
-.navbar-laravel {
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
-}
-
 body{
-  background: rgb(36, 21, 112);
-  color:rgb(14, 206, 222);
+  background: $primary;
+  color: $secondary;
   font-family:$font-family;
   font-weight: $body-weight;
   font-size:$body-copy;
 }
 
-h1{
-  font-weight: $title-weight;
+.title{
+  font-style: italic;
+}
+
+a{
+  &.title{
+    text-decoration: none;
+    color:inherit;
+  }
 }
