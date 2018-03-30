@@ -9,7 +9,8 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700i" rel="stylesheet">  
-        <link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css" >
+        <link href="{{ asset('css/grid.css') }}" rel="stylesheet" type="text/css" >
+        <link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css" >        
     </head>
     <body>
         @yield('navigation')
