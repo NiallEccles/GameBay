@@ -1,0 +1,11 @@
+.title{
+    font-style: italic;
+  }
+  
+  a{
+    &.title{
+      text-decoration: none;
+      color:inherit;
+      font-size: 1.5em;
+    }
+  }
