@@ -1,6 +1,7 @@
 // Variables
 @import "_variables";
 @import "_title";
+@import "_navigation";
 
 body{
   background: $primary;
@@ -8,39 +9,6 @@ body{
   font-family:$font-family;
   font-weight: $body-weight;
   font-size:$body-copy;
-}
-
-.menu-icon {
-  display: none; }
-  @media screen and (max-width: 800px) {
-  .menu-icon {
-      color: white;
-      display: block;
-      width: 30px;
-      margin-right: 10px; } }
-
-#header-bar{
-  display: flex;
-}
-
-.menu{
-  display: flex;
-  flex-grow: 1;
-}
-
-.title-bar{
-  display: flex;
-  flex-grow: 1;
-  justify-content: center;
-}
-
-.profile{
-  display: flex;
-  flex-grow: 1;
-  align-items: center;
-  justify-content: flex-end;
-  padding: 0 10px 0 0;
-  font-weight: 700;
 }
 
 a{
