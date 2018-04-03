@@ -15,5 +15,6 @@
     <body>
         @yield('navigation')
         @yield('slideshow')
+        <script src="{{ asset('js/script.js') }}"></script>
     </body>
 </html>
