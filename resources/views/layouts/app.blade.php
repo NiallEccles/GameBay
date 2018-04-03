@@ -14,5 +14,6 @@
     </head>
     <body>
         @yield('navigation')
+        @yield('slideshow')
     </body>
 </html>
