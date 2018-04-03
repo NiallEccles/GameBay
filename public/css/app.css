@@ -37,7 +37,7 @@ a.title {
   font-weight: 700; }
 
 #slider, .slideshow, .slide-content {
-  height: 25vh;
+  height: 40vh;
   overflow-x: hidden; }
 
 .slideshow {
@@ -81,7 +81,7 @@ a.title {
   margin-left: 30px; }
 
 #arrow-right {
-  border-width: 30px 0px 30px 30px;
+  border-width: 30px 0px 30px 40px;
   border-color: transparent transparent transparent white;
   right: 0;
   margin-right: 30px; }
