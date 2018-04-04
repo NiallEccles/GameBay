@@ -15,7 +15,7 @@
             foreach ($slide_image as $image) { 
                 $i++; 
             ?>
-                <div class="slide slide<?php echo $i; ?>" style="background:url(<?php echo $image; ?>); background:position:center center; background-repeat:no-repeat; background-size:cover;">
+                <div class="slide slide<?php echo $i; ?>" style="color:red; background-image:url('<?php echo $image; ?>')">
                     <div class="slide-content">
                         <span>Image <?php echo $i; ?></span>
                     </div>

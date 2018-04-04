@@ -37,7 +37,7 @@ a.title {
   font-weight: 700; }
 
 #slider, .slideshow, .slide-content {
-  height: 40vh;
+  height: 75vh;
   overflow-x: hidden; }
 
 .slideshow {
@@ -45,9 +45,16 @@ a.title {
 
 .slide {
   background: #13A8FD;
+  position: absolute;
   background-size: cover;
-  background-position: center;
+  background-position: 50%;
+  height: 100%;
+  width: 100%;
+  opacity: 0.8;
   background-repeat: no-repeat; }
+
+#slider {
+  position: relative; }
 
 .slide-content {
   display: flex;
