@@ -12,5 +12,5 @@
 */
 
 Route::get('/', function () {
-    return view('/layouts/slideshow');
+    return view('/pages/slideshow');
 });
