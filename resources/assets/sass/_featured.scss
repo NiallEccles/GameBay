@@ -1,0 +1,38 @@
+.featured{
+    display: flex;
+    flex-direction: row;
+    color:$primary;
+}
+
+.panel{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin: 15px;
+    background:$secondary;
+}
+
+.panel-image{
+    padding: 1em;
+    min-height: 15em;
+    background-size: cover!important;
+}
+
+.panel-info{
+    min-height: 3.5em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1em;
+}
+
+.panel-title{
+    display: flex;
+    flex-grow: 2;
+}
+
+.panel-price{
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+}

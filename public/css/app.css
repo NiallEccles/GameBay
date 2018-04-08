@@ -85,6 +85,39 @@ a.title {
   right: 0;
   margin-right: 30px; }
 
+.featured {
+  display: flex;
+  flex-direction: row;
+  color: #F6FFFF; }
+
+.panel {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin: 15px;
+  background: #13A8FD; }
+
+.panel-image {
+  padding: 1em;
+  min-height: 15em;
+  background-size: cover !important; }
+
+.panel-info {
+  min-height: 3.5em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1em; }
+
+.panel-title {
+  display: flex;
+  flex-grow: 2; }
+
+.panel-price {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end; }
+
 body {
   background: #F6FFFF;
   color: #13A8FD;
@@ -94,3 +127,9 @@ body {
 
 a {
   color: #13A8FD; }
+
+.no-margin {
+  margin: 0 !important; }
+
+.no-padding {
+  padding: 0 !important; }
