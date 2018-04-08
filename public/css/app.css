@@ -89,6 +89,9 @@ a.title {
   display: flex;
   flex-direction: row;
   color: #F6FFFF; }
+  @media screen and (max-width: 750px) {
+    .featured {
+      flex-direction: column; } }
 
 .panel {
   display: flex;
