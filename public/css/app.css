@@ -101,9 +101,16 @@ a.title {
   background: #13A8FD; }
 
 .panel-image {
+  position: relative;
   padding: 1em;
   min-height: 15em;
   background-size: cover !important; }
+
+.panel-image::after {
+  content: 'Featured';
+  color: #13A8FD;
+  background: #F6FFFF;
+  padding: 0.235em 0.5em; }
 
 .panel-info {
   min-height: 3.5em;

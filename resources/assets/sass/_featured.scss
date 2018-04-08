@@ -16,9 +16,17 @@
 }
 
 .panel-image{
+    position: relative;
     padding: 1em;
     min-height: 15em;
     background-size: cover!important;
+}
+
+.panel-image::after{
+    content: 'Featured';
+    color:$secondary;
+    background:$primary;
+    padding: 0.235em 0.5em;
 }
 
 .panel-info{
