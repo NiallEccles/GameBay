@@ -12,5 +12,5 @@
 */
 
 Route::get('/', function () {
-    return view('/pages/navigation');
+    return view('/layouts/app');
 });
