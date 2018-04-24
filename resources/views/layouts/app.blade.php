@@ -33,7 +33,6 @@
                 </div>            
             </div>
         </nav>
-        <br>
         <div class="slideshow">
             <div id="arrow-left" class="arrow"></div>
             <div id="slider">
